@@ -1,0 +1,10 @@
+^C:\USERS\JOOMI\ONEDRIVE\바탕 화면\CPP\BUILD\CMAKEFILES\400A1C568D6B965E2FEAE1A8D9C62997\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/joomi/OneDrive/바탕 화면/cpp/week01" "-BC:/Users/joomi/OneDrive/바탕 화면/cpp/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/joomi/OneDrive/바탕 화면/cpp/build/WEEK01.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

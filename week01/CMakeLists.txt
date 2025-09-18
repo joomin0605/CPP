@@ -7,5 +7,6 @@ project(${PROJECT_NAME})
 add_executable(${PROJECT_NAME}
     # src/main_vector3.cpp
     # src/main_rational.cpp
-    src/main_stl.cpp
+    # src/main_stl.cpp
+    src/main_lambda.cpp
 )

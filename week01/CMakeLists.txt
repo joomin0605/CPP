@@ -10,5 +10,6 @@ add_executable(${PROJECT_NAME}
     # src/main_stl.cpp
     # src/main_lambda.cpp
     # src/main_raii.cpp
-    src/main_move.cpp
+    # src/main_move.cpp
+    src/main_exception.cpp
 )

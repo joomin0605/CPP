@@ -1,0 +1,1 @@
+add_executable(w02_sfinae src/main_sfinae.cpp)

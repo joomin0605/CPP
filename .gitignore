@@ -1,0 +1,60 @@
+# --- Build output ---
+/build/
+/**/build/
+/CMakeFiles/
+/**/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+# --- Visual Studio / MSVC ---
+.vs/
+*.sln
+*.vcxproj*
+*.vcproj*
+*.user
+*.filters
+*.db
+*.opendb
+*.tlog
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exe
+*.dll
+*.lib
+*.exp
+*.log
+
+# --- Visual Studio Code ---
+# 개인 환경 설정은 제외할 수 있음
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# --- OS-specific files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Other temporary files ---
+*.swp
+*.swo
+*~

@@ -3,4 +3,5 @@
 # add_executable(w02_metaprogramming src/main_metaprogramming.cpp)
 # add_executable(w02_concepts src/main_concepts.cpp)
 # add_executable(w02_exception_strong src/main_exception_strong.cpp)
-add_executable(w02_stl_allocator src/main_stl_allocator.cpp)
+# add_executable(w02_stl_allocator src/main_stl_allocator.cpp)
+add_executable(w02_stl_containers src/main_stl_containers.cpp)
